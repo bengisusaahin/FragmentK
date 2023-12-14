@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.bengisusahin.fragmentk'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.bengisusahin.fragmentk"
