@@ -31,7 +31,7 @@ class FirstFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.button1.setOnClickListener {
-            val action = FirstFragmentDirections.actionFirstFragmentToSecondFragment()
+            val action = FirstFragmentDirections.actionFirstFragmentToSecondFragment("samancioglu")
             Navigation.findNavController(it).navigate(action)
         }
 
